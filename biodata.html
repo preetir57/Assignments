@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Biodata</title>
+    </head>
+<body>
+    <h1>My Bio Data</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="firstname">Firstname:</label>
+        <input id="firstname" type="text" placeholder="First Name" name="fname">
+        <label for="lasttname">Lastname:</label>
+        <input id="lastname" type="text" placeholder="Last Name" name="lname">
+        <br><br>
+        <label for="male">Male:</label>
+        <input id="male" type="radio" value="male" name="gender">
+        <label for="female">Female:</label>
+        <input id="female" type="radio" value="female" name="gender">
+        <label for="other">Other:</label>
+        <input id="other" type="radio" value="other" name="gender">
+        <br><br>
+        <label for="dateOB">Date of Birth:</label>
+        <input id="dateOB" type="date" name="Date">
+        <br> <br>
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" name="email" placeholder="Enter your Email">
+        <br><br>
+        <label for="number">Phone:</label>
+        <input id="number" type="number" name="number" placeholder="+91">
+        <br><br>
+        <label for="height">Height:</label>
+        <input id="height" type="number" name="height" placeholder="Height in feet">
+    </fieldset>
+    <fieldset>
+        <legend>Education</legend>
+        <label for="Sname">School Name:</label>
+        <input id="Sname" type="text" name="Sname" placeholder="School Name">
+        <br><br>
+        <label for="Class">Class:   </label>
+        <input id="Class" type="number" placeholder="Enter Class" name="class">
+        <br><br>
+        <label for="stream">Stream:</label>
+        <select name="streams" id="stream">
+            <option value=" ">Stream</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="Mech">Mech</option>
+            <option value="BPharma">Bpharma</option>
+        </select>
+        <br><br>
+        <label for="marksheet">Marksheet:</label>
+        <input id="marksheet" type="file">
+    </fieldset>
+    <br>
+    <button>Submit</button>
+</body>
+</html>
