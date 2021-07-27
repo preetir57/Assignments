@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    color:#862d0f;
+    font-size:30px;
+    border-bottom:1px solid darkgray;
+    border-top:1px solid darkgray;
+}
+dl>div{
+    padding: 20px;
+}
+dt{
+    border: 1px solid rosybrown;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: antiquewhite;
+    color: brown;
+    margin: 0;
+    padding:5px;
+    position: sticky;
+    top: -1px;
+}
+dd{
+    border-bottom: 1px solid palegreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px;
+    white-space: nowrap;
+    margin: 0;
+
+}
