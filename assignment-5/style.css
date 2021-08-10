@@ -1,0 +1,12 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255) !important;
+    font-weight: 500;
+    margin-left: 25px;
+}
+img{
+    height: 380px !important;
+    width:300px !important;
+}
+.about{
+    font-family: 'Poppins', sans-serif;
+}
